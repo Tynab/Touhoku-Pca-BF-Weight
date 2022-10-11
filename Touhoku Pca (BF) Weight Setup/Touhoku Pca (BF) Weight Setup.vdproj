@@ -51,6 +51,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E0F11C0AAD124E9BB6D1F59A05EAF617"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E0FBC510730D43A9A0B1B6A07A2E00A4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -58,13 +64,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C18FDA4BC15C3785F3C02605888B1F1E"
+        "OwnerKey" = "8:_4747D0ED807C4B99A825F7CBDDC9DA34"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4747D0ED807C4B99A825F7CBDDC9DA34"
+        "OwnerKey" = "8:_C18FDA4BC15C3785F3C02605888B1F1E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -117,6 +123,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.8.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.8.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.8.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -257,6 +279,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E0F11C0AAD124E9BB6D1F59A05EAF617"
+            {
+            "SourcePath" = "8:..\\res\\ic.ico"
+            "TargetName" = "8:ic.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_EB8E2C2EF46D4F81A24CB4DAA449E489"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E0FBC510730D43A9A0B1B6A07A2E00A4"
             {
             "SourcePath" = "8:..\\res\\BSLuffy.bmp"
@@ -334,7 +376,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Touhoku Pca (BF) Weight Setup"
         "ProductCode" = "8:{973BEF17-0904-46A5-88F6-72DA4385A8B2}"
-        "PackageCode" = "8:{97306B0A-A72B-4498-9809-9AAB19CA7D30}"
+        "PackageCode" = "8:{93CD093E-05B0-4626-A731-841E42539A5D}"
         "UpgradeCode" = "8:{82F62F83-0E7A-4563-A0EE-5DED31D8E89D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -351,7 +393,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_E0F11C0AAD124E9BB6D1F59A05EAF617"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -465,7 +507,21 @@
             "Target" = "8:_4747D0ED807C4B99A825F7CBDDC9DA34"
             "Folder" = "8:_D2B3EF55853B41B18BCFB57687EB89A6"
             "WorkingFolder" = "8:_EB8E2C2EF46D4F81A24CB4DAA449E489"
-            "Icon" = "8:"
+            "Icon" = "8:_E0F11C0AAD124E9BB6D1F59A05EAF617"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9D75A243324645299789A534860629AA"
+            {
+            "Name" = "8:東北 (プレキャス - BF) 重量"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_4747D0ED807C4B99A825F7CBDDC9DA34"
+            "Folder" = "8:_54C0016E47FB4AE7B428C54B08B6F279"
+            "WorkingFolder" = "8:_EB8E2C2EF46D4F81A24CB4DAA449E489"
+            "Icon" = "8:_E0F11C0AAD124E9BB6D1F59A05EAF617"
             "Feature" = "8:"
             }
         }
@@ -495,7 +551,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_17601891EDBE447DBE29E40842C743D3"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -532,7 +589,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_17601891EDBE447DBE29E40842C743D3"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -576,7 +634,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_A94C73E228824C19A39C9D9304B31038"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -620,7 +679,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_A94C73E228824C19A39C9D9304B31038"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -664,7 +724,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_88585DCEF864440180D00BC84FD5B305"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -686,7 +747,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_E0FBC510730D43A9A0B1B6A07A2E00A4"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -734,7 +796,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_A3F246E707EA4444BCA73ECFD3C0601B"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -771,7 +834,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_88585DCEF864440180D00BC84FD5B305"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -855,7 +919,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_A3F246E707EA4444BCA73ECFD3C0601B"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -870,7 +935,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4747D0ED807C4B99A825F7CBDDC9DA34"
             {
-            "SourcePath" = "8:..\\Touhoku Pca (BF) Weight\\obj\\Debug\\Touhoku Pca (BF) Weight.exe"
+            "SourcePath" = "8:..\\Touhoku Pca (BF) Weight\\obj\\Release\\Touhoku Pca (BF) Weight.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EB8E2C2EF46D4F81A24CB4DAA449E489"

@@ -61,7 +61,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to Touhoku Pca Weight.
+        '''  Looks up a localized string similar to Touhoku Pca (BF) Weight.
         '''</summary>
         Friend ReadOnly Property app_name() As String
             Get
@@ -70,7 +70,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to 東北 (プレキャス) 重量.
+        '''  Looks up a localized string similar to 東北 (プレキャス - BF) 重量.
         '''</summary>
         Friend ReadOnly Property app_true_name() As String
             Get
@@ -115,7 +115,17 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to WUFOIOadseWMlyAo44OX44Os44Kt44Oj44K5KSDph43ph48=.
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property gUpdating() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("gUpdating", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to WUFOIOadseWMlyAo44OX44Os44Kt44Oj44K5IC0gQkYpIOmHjemHjw==.
         '''</summary>
         Friend ReadOnly Property key_ser() As String
             Get
@@ -124,7 +134,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to https://raw.githubusercontent.com/Tynab/Tynab/main/app/Touhoku%20Pca%20Weight.
+        '''  Looks up a localized string similar to https://raw.githubusercontent.com/Tynab/Tynab/main/app/Touhoku%20Pca%20(BF)%20Weight.
         '''</summary>
         Friend ReadOnly Property link_app() As String
             Get
@@ -142,7 +152,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to https://raw.githubusercontent.com/Tynab/Tynab/main/ver/Touhoku%20Pca%20Weight.
+        '''  Looks up a localized string similar to https://raw.githubusercontent.com/Tynab/Tynab/main/ver/Touhoku%20Pca%20(BF)%20Weight.
         '''</summary>
         Friend ReadOnly Property link_ver() As String
             Get
