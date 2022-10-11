@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Touhoku Pca (BF) Weight", "Touhoku Pca (BF) Weight\Touhoku Pca (BF) Weight.vbproj", "{E351FFEF-08D9-4FDF-81B3-173A3831139F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Touhoku Pca (BF) Weight Setup", "Touhoku Pca (BF) Weight Setup\Touhoku Pca (BF) Weight Setup.vdproj", "{F47C7581-01EF-4434-A3D6-CA462CBF0B46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E351FFEF-08D9-4FDF-81B3-173A3831139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E351FFEF-08D9-4FDF-81B3-173A3831139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E351FFEF-08D9-4FDF-81B3-173A3831139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E351FFEF-08D9-4FDF-81B3-173A3831139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47C7581-01EF-4434-A3D6-CA462CBF0B46}.Debug|Any CPU.ActiveCfg = Debug
+		{F47C7581-01EF-4434-A3D6-CA462CBF0B46}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9CDEFDB-8E02-4FE3-B124-63EF5D911103}
+	EndGlobalSection
+EndGlobal
