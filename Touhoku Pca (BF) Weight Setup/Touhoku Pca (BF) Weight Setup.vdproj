@@ -375,15 +375,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Touhoku Pca (BF) Weight Setup"
-        "ProductCode" = "8:{544AD52B-1FFF-4762-B5BA-FFFF0030E0E2}"
-        "PackageCode" = "8:{CC1D8A76-B245-4EBD-874E-6D58F9B1A72C}"
+        "ProductCode" = "8:{52B4F4DA-E7CE-4751-89A5-F7CBE9DE3240}"
+        "PackageCode" = "8:{7E54D8A2-E159-4507-8C5B-D8DEF1939708}"
         "UpgradeCode" = "8:{82F62F83-0E7A-4563-A0EE-5DED31D8E89D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.10.12"
+        "ProductVersion" = "8:22.10.13"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -935,7 +935,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_4747D0ED807C4B99A825F7CBDDC9DA34"
             {
-            "SourcePath" = "8:..\\Touhoku Pca (BF) Weight\\obj\\Release\\Touhoku Pca (BF) Weight.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_EB8E2C2EF46D4F81A24CB4DAA449E489"
